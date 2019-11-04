@@ -62,7 +62,6 @@ function draw() {
 
 // DRAW LINES FUNCTION //
 function drawLines(){ // draws the evenly distributed lines 
-	strokeWeight = 3;
 	for(let i = 2; i < 7; i++){
 	line(0,i*100,1000,i*100);
 	}
